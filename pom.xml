@@ -169,10 +169,10 @@
                 <outputDirectory>${project.basedir}</outputDirectory>
                 <branch>refs/heads/main</branch>
                 <includes>
-                    <include>lib/*.jar</include>
-                    <include>src/*</include>
+<!--                    <include>lib/*.jar</include>-->
+<!--                    <include>src/*</include>-->
                     <include>pom.xml</include>
-                    <include>README.md</include>
+<!--                    <include>README.md</include>-->
                 </includes>
                 <merge>true</merge>
                 <repositoryName>com.javarush.khomchenko.maven-project</repositoryName>
